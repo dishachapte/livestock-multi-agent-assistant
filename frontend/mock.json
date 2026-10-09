@@ -1,0 +1,3483 @@
+{
+ "briefing": {
+  "en": {
+   "alerts": [
+    {
+     "priority": "high",
+     "text": "Cow #17 has fever (40.1°C)"
+    },
+    {
+     "priority": "high",
+     "text": "2 cows need attention"
+    },
+    {
+     "priority": "medium",
+     "text": "Feed runs out in 3 days"
+    },
+    {
+     "priority": "medium",
+     "text": "Cow #8 likely in heat"
+    },
+    {
+     "priority": "low",
+     "text": "Vaccination due next week"
+    }
+   ]
+  },
+  "hi": {
+   "alerts": [
+    {
+     "priority": "high",
+     "text": "गाय #17 को बुखार (40.1°C)"
+    },
+    {
+     "priority": "high",
+     "text": "2 गायों पर ध्यान देने की जरूरत"
+    },
+    {
+     "priority": "medium",
+     "text": "चारा 3 दिन में खत्म हो जाएगा"
+    },
+    {
+     "priority": "medium",
+     "text": "गाय #8 गर्मी (हीट) में हो सकती है"
+    },
+    {
+     "priority": "low",
+     "text": "अगले हफ्ते टीकाकरण होना है"
+    }
+   ]
+  },
+  "ta": {
+   "alerts": [
+    {
+     "priority": "high",
+     "text": "17-ஆம் பசுவுக்கு காய்ச்சல் (40.1°C)"
+    },
+    {
+     "priority": "high",
+     "text": "2 பசுக்களுக்கு கவனம் தேவை"
+    },
+    {
+     "priority": "medium",
+     "text": "தீவனம் 3 நாட்களில் தீரும்"
+    },
+    {
+     "priority": "medium",
+     "text": "8-ஆம் பசு பருவத்தில் இருக்கலாம்"
+    },
+    {
+     "priority": "low",
+     "text": "அடுத்த வாரம் தடுப்பூசி போட வேண்டும்"
+    }
+   ]
+  },
+  "kn": {
+   "alerts": [
+    {
+     "priority": "high",
+     "text": "ಹಸು #17ಕ್ಕೆ ಜ್ವರ (40.1°C)"
+    },
+    {
+     "priority": "high",
+     "text": "2 ಹಸುಗಳಿಗೆ ಗಮನ ಬೇಕು"
+    },
+    {
+     "priority": "medium",
+     "text": "ಮೇವು 3 ದಿನಗಳಲ್ಲಿ ಖಾಲಿಯಾಗುತ್ತದೆ"
+    },
+    {
+     "priority": "medium",
+     "text": "ಹಸು #8 ಮದಕ್ಕೆ ಬಂದಿರಬಹುದು"
+    },
+    {
+     "priority": "low",
+     "text": "ಮುಂದಿನ ವಾರ ಲಸಿಕೆ ಹಾಕಬೇಕು"
+    }
+   ]
+  }
+ },
+ "herd": [
+  {
+   "id": 1,
+   "name": "Lakshmi",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 2,
+   "name": "Gauri",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 3,
+   "name": "Nandini",
+   "status": "yellow",
+   "reason": "Feed intake low"
+  },
+  {
+   "id": 4,
+   "name": "Kamdhenu",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 5,
+   "name": "Ganga",
+   "status": "red",
+   "reason": "Milk down 18%"
+  },
+  {
+   "id": 6,
+   "name": "Radha",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 7,
+   "name": "Sita",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 8,
+   "name": "Yamuna",
+   "status": "yellow",
+   "reason": "Likely in heat"
+  },
+  {
+   "id": 9,
+   "name": "Kaveri",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 10,
+   "name": "Saraswati",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 11,
+   "name": "Durga",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 12,
+   "name": "Parvati",
+   "status": "red",
+   "reason": "SCC 520k"
+  },
+  {
+   "id": 13,
+   "name": "Tulsi",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 14,
+   "name": "Mohini",
+   "status": "yellow",
+   "reason": "Limping slightly"
+  },
+  {
+   "id": 15,
+   "name": "Chandni",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 16,
+   "name": "Bhavani",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 17,
+   "name": "Meera",
+   "status": "red",
+   "reason": "Temp 40.1°C"
+  },
+  {
+   "id": 18,
+   "name": "Sundari",
+   "status": "green",
+   "reason": "All normal"
+  },
+  {
+   "id": 19,
+   "name": "Kalyani",
+   "status": "yellow",
+   "reason": "SCC 310k"
+  },
+  {
+   "id": 20,
+   "name": "Rani",
+   "status": "green",
+   "reason": "All normal"
+  }
+ ],
+ "cow": {
+  "1": {
+   "details": {
+    "Breed": "Gir",
+    "Age": "4 years",
+    "Lactation": "2",
+    "Last calving": "2026-02-11",
+    "Avg milk": "10.4 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 10.0
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 10.8
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 10.6
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 10.4
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 10.6
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 10.5
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 10.5
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 11.1
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 10.0
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 10.1
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 10.8
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 11.3
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 10.7
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 10.4
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 11.2
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 10.3
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 10.0
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 10.0
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 10.3
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 11.1
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 10.1
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 10.7
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 10.8
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "2": {
+   "details": {
+    "Breed": "Sahiwal",
+    "Age": "5 years",
+    "Lactation": "3",
+    "Last calving": "2026-03-12",
+    "Avg milk": "11.0 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 11.1
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 10.3
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 10.3
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 10.5
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 11.3
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 10.9
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 10.7
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 11.1
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 10.9
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 10.7
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 11.5
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 11.3
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 10.6
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 11.1
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 11.0
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 11.6
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 11.3
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 10.6
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 11.7
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 10.4
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 10.8
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 10.4
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 11.0
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 10.2
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 11.2
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 11.1
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 11.6
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 10.7
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "3": {
+   "details": {
+    "Breed": "Jersey Cross",
+    "Age": "6 years",
+    "Lactation": "4",
+    "Last calving": "2026-04-13",
+    "Avg milk": "13.6 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 13.7
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 13.7
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 13.5
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 14.1
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 14.3
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 13.5
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 13.8
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 12.9
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 13.9
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 13.8
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 14.4
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 14.1
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 13.2
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 13.4
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 13.8
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 12.8
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 13.5
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 13.0
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 12.9
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 12.9
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 14.0
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 13.0
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 13.2
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 13.4
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 14.2
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 12.9
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 13.5
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 13.6
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 14.2
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 14.1
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "4": {
+   "details": {
+    "Breed": "Murrah",
+    "Age": "7 years",
+    "Lactation": "1",
+    "Last calving": "2026-05-14",
+    "Avg milk": "14.9 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 14.6
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 14.8
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 14.7
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 15.5
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 14.4
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 14.4
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 14.5
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 14.5
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 14.9
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 15.1
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 14.5
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 14.1
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 14.8
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 14.7
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 15.0
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 15.2
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 14.9
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 15.1
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 15.2
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 14.2
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 15.4
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 15.5
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 15.4
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 14.7
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 14.8
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 14.3
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 15.1
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "5": {
+   "details": {
+    "Breed": "HF Cross",
+    "Age": "8 years",
+    "Lactation": "2",
+    "Last calving": "2026-06-15",
+    "Avg milk": "7.9 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 7.8
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 8.0
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 8.0
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 8.2
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 7.8
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 7.7
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 7.9
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 7.9
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 8.3
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 7.7
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 8.7
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 7.9
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 8.1
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 8.3
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 8.3
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 7.9
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 9.3
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 8.4
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 7.8
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 7.9
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 6.8
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 6.7
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 7.4
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 6.5
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 6.3
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 7.6
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 7.0
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-10-07",
+     "issue": "Milk drop 18%",
+     "treatment": "Feed review"
+    }
+   ]
+  },
+  "6": {
+   "details": {
+    "Breed": "Gir",
+    "Age": "3 years",
+    "Lactation": "3",
+    "Last calving": "2026-01-16",
+    "Avg milk": "9.2 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 9.2
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 8.4
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 9.2
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 9.8
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 9.5
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 9.0
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 9.6
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 9.2
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 9.6
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 8.9
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 8.7
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 9.6
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 8.7
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 9.2
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 8.9
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 8.4
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 8.4
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 9.5
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 9.1
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "7": {
+   "details": {
+    "Breed": "Sahiwal",
+    "Age": "4 years",
+    "Lactation": "4",
+    "Last calving": "2026-02-17",
+    "Avg milk": "15.6 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 16.3
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 16.2
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 15.3
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 15.0
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 15.1
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 15.0
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 15.0
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 15.7
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 16.1
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 16.0
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 15.5
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 15.7
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 16.0
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 14.8
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 15.8
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 16.2
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 15.9
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 15.9
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 15.5
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 15.0
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 16.0
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 15.2
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 16.0
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 16.3
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 15.3
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 15.3
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 16.2
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 15.9
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 15.0
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 14.9
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "8": {
+   "details": {
+    "Breed": "Jersey Cross",
+    "Age": "5 years",
+    "Lactation": "1",
+    "Last calving": "2026-03-18",
+    "Avg milk": "9.3 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 10.0
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 9.5
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 9.0
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 9.3
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 8.4
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 10.0
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 9.4
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 9.3
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 9.8
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 8.7
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 8.9
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 9.3
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 9.0
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 9.3
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 9.9
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "9": {
+   "details": {
+    "Breed": "Murrah",
+    "Age": "6 years",
+    "Lactation": "2",
+    "Last calving": "2026-04-19",
+    "Avg milk": "11.4 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 12.0
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 10.6
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 11.3
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 10.9
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 10.6
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 11.8
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 10.8
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 11.3
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 11.7
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 11.5
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 11.1
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 11.5
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 11.8
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 10.7
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 11.5
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 11.0
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 11.0
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 11.8
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 11.5
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 11.8
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 12.0
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 11.3
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 11.5
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 11.4
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "10": {
+   "details": {
+    "Breed": "HF Cross",
+    "Age": "7 years",
+    "Lactation": "3",
+    "Last calving": "2026-05-20",
+    "Avg milk": "13.6 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 13.5
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 13.6
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 13.5
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 14.2
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 13.9
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 14.1
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 14.2
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 13.2
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 13.6
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 14.3
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 14.1
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 13.0
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 12.9
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 13.4
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 12.9
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 13.1
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 12.9
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 13.8
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 14.0
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 14.2
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 13.0
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 13.9
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 13.8
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 13.0
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 14.2
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 14.3
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 13.1
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 14.3
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 13.4
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 13.5
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "11": {
+   "details": {
+    "Breed": "Gir",
+    "Age": "8 years",
+    "Lactation": "4",
+    "Last calving": "2026-06-21",
+    "Avg milk": "15.8 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 16.5
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 15.4
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 15.8
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 15.9
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 15.7
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 15.4
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 16.3
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 15.2
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 16.0
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 15.8
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 15.1
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 16.1
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 15.9
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 15.2
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 16.7
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 16.4
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 16.7
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 15.3
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 15.5
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 15.2
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 16.4
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 15.3
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 15.8
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 16.6
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 16.4
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 15.5
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 15.4
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "12": {
+   "details": {
+    "Breed": "Sahiwal",
+    "Age": "3 years",
+    "Lactation": "1",
+    "Last calving": "2026-01-22",
+    "Avg milk": "15.2 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 15.5
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 15.7
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 14.7
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 14.6
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 15.7
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 15.2
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 14.7
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 16.1
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 15.8
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 14.7
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 15.9
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 14.7
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 15.9
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 15.3
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 15.1
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 15.4
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 16.0
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 15.0
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 14.8
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 15.4
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 14.9
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 14.7
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 14.8
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 14.6
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 14.9
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 15.1
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 15.0
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 15.8
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 15.0
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-10-06",
+     "issue": "Raised SCC",
+     "treatment": "Antibiotic course started"
+    }
+   ]
+  },
+  "13": {
+   "details": {
+    "Breed": "Jersey Cross",
+    "Age": "4 years",
+    "Lactation": "2",
+    "Last calving": "2026-02-23",
+    "Avg milk": "11.9 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 11.5
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 11.8
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 11.2
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 11.6
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 11.2
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 12.4
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 12.1
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 11.5
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 12.0
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 12.7
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 12.5
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 11.9
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 12.0
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 12.5
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 11.8
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 12.0
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 12.3
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 12.8
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 11.7
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 12.5
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 12.3
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 12.2
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 11.8
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 11.8
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 11.3
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 11.4
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 11.3
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 12.4
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 11.6
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "14": {
+   "details": {
+    "Breed": "Murrah",
+    "Age": "5 years",
+    "Lactation": "3",
+    "Last calving": "2026-03-24",
+    "Avg milk": "9.1 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 9.6
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 9.0
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 8.9
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 9.0
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 9.2
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 9.2
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 8.9
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 10.0
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 10.1
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 9.4
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 8.9
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 10.1
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 9.0
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 9.3
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 9.3
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 9.3
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 8.9
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 8.5
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-09-30",
+     "issue": "Mild lameness",
+     "treatment": "Hoof trimming"
+    }
+   ]
+  },
+  "15": {
+   "details": {
+    "Breed": "HF Cross",
+    "Age": "6 years",
+    "Lactation": "4",
+    "Last calving": "2026-04-10",
+    "Avg milk": "10.6 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 10.0
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 10.6
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 10.5
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 10.8
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 10.7
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 10.8
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 11.0
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 10.3
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 10.2
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 11.2
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 10.8
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 10.7
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 11.0
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 11.1
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 10.6
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 10.8
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 10.9
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 9.9
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 10.5
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 10.4
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 11.0
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 10.9
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 11.0
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 10.6
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 11.1
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 10.7
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 10.7
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 10.0
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "16": {
+   "details": {
+    "Breed": "Gir",
+    "Age": "7 years",
+    "Lactation": "1",
+    "Last calving": "2026-05-11",
+    "Avg milk": "8.3 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 7.7
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 8.0
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 7.6
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 8.3
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 8.2
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 7.5
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 8.7
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 8.3
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 8.3
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 7.6
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 7.9
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 7.6
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 7.9
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 7.8
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 9.0
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 8.2
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 8.1
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 8.2
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 8.7
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 8.4
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "17": {
+   "details": {
+    "Breed": "Sahiwal",
+    "Age": "8 years",
+    "Lactation": "2",
+    "Last calving": "2026-06-12",
+    "Avg milk": "13.1 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 12.5
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 12.6
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 12.7
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 13.5
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 12.8
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 13.3
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 12.4
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 12.4
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 12.8
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 13.4
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 13.4
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 13.4
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 12.8
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 13.2
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 13.1
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 13.1
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 12.5
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 13.8
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 12.7
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 13.9
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 13.8
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 12.4
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 13.1
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 13.7
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 13.9
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 13.1
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 12.8
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 12.7
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 13.9
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 12.7
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-10-08",
+     "issue": "Fever 40.1°C",
+     "treatment": "Under observation"
+    }
+   ]
+  },
+  "18": {
+   "details": {
+    "Breed": "Jersey Cross",
+    "Age": "3 years",
+    "Lactation": "3",
+    "Last calving": "2026-01-13",
+    "Avg milk": "12.6 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 12.1
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 12.7
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 13.4
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 12.1
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 13.2
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 12.7
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 13.3
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 13.0
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 12.2
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 13.3
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 12.6
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 11.9
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 11.9
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 12.6
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 12.6
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 12.3
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 12.1
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 12.4
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 12.4
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 13.2
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 11.9
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 13.1
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 13.2
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 12.0
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 13.3
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 13.0
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 13.3
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 12.3
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 12.4
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 12.5
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "19": {
+   "details": {
+    "Breed": "Murrah",
+    "Age": "4 years",
+    "Lactation": "4",
+    "Last calving": "2026-02-14",
+    "Avg milk": "16.0 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 16.1
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 15.8
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 15.9
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 15.3
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 15.4
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 16.5
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 16.7
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 16.0
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 15.5
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 15.8
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 16.7
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 16.6
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 16.5
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 16.2
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 16.7
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 16.7
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 16.1
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 16.3
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 15.3
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 16.4
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 15.9
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 16.4
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 16.2
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 15.6
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 15.3
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 16.7
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  },
+  "20": {
+   "details": {
+    "Breed": "HF Cross",
+    "Age": "5 years",
+    "Lactation": "1",
+    "Last calving": "2026-03-15",
+    "Avg milk": "8.9 L/day"
+   },
+   "milk_history": [
+    {
+     "date": "2026-09-10",
+     "litres": 9.0
+    },
+    {
+     "date": "2026-09-11",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-09-12",
+     "litres": 8.7
+    },
+    {
+     "date": "2026-09-13",
+     "litres": 9.4
+    },
+    {
+     "date": "2026-09-14",
+     "litres": 9.8
+    },
+    {
+     "date": "2026-09-15",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-09-16",
+     "litres": 9.3
+    },
+    {
+     "date": "2026-09-17",
+     "litres": 8.7
+    },
+    {
+     "date": "2026-09-18",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-09-19",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-09-20",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-09-21",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-09-22",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-09-23",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-24",
+     "litres": 9.0
+    },
+    {
+     "date": "2026-09-25",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-09-26",
+     "litres": 9.7
+    },
+    {
+     "date": "2026-09-27",
+     "litres": 9.8
+    },
+    {
+     "date": "2026-09-28",
+     "litres": 8.9
+    },
+    {
+     "date": "2026-09-29",
+     "litres": 8.4
+    },
+    {
+     "date": "2026-09-30",
+     "litres": 8.5
+    },
+    {
+     "date": "2026-10-01",
+     "litres": 8.4
+    },
+    {
+     "date": "2026-10-02",
+     "litres": 8.8
+    },
+    {
+     "date": "2026-10-03",
+     "litres": 8.4
+    },
+    {
+     "date": "2026-10-04",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-10-05",
+     "litres": 8.6
+    },
+    {
+     "date": "2026-10-06",
+     "litres": 9.1
+    },
+    {
+     "date": "2026-10-07",
+     "litres": 9.6
+    },
+    {
+     "date": "2026-10-08",
+     "litres": 9.4
+    },
+    {
+     "date": "2026-10-09",
+     "litres": 8.9
+    }
+   ],
+   "health_history": [
+    {
+     "date": "2026-07-12",
+     "issue": "FMD vaccination",
+     "treatment": "Vaccinated"
+    }
+   ]
+  }
+ },
+ "sensor_readings": {
+  "1": { "temperature": 38.6, "activity": 62, "rumination": 486 },
+  "2": { "temperature": 38.5, "activity": 58, "rumination": 512 },
+  "3": { "temperature": 38.7, "activity": 43, "rumination": 438 },
+  "4": { "temperature": 38.6, "activity": 66, "rumination": 498 },
+  "5": { "temperature": 39.1, "activity": 47, "rumination": 410 },
+  "6": { "temperature": 38.5, "activity": 71, "rumination": 530 },
+  "7": { "temperature": 38.6, "activity": 64, "rumination": 501 },
+  "8": { "temperature": 38.6, "activity": 82, "rumination": 475 },
+  "9": { "temperature": 38.4, "activity": 60, "rumination": 520 },
+  "10": { "temperature": 38.7, "activity": 55, "rumination": 468 },
+  "11": { "temperature": 38.6, "activity": 68, "rumination": 504 },
+  "12": { "temperature": 39.2, "activity": 39, "rumination": 390 },
+  "13": { "temperature": 38.5, "activity": 72, "rumination": 515 },
+  "14": { "temperature": 38.7, "activity": 45, "rumination": 444 },
+  "15": { "temperature": 38.6, "activity": 62, "rumination": 490 },
+  "16": { "temperature": 38.4, "activity": 75, "rumination": 542 },
+  "17": { "temperature": 40.1, "activity": 31, "rumination": 322 },
+  "18": { "temperature": 38.5, "activity": 67, "rumination": 508 },
+  "19": { "temperature": 38.6, "activity": 50, "rumination": 452 },
+  "20": { "temperature": 38.5, "activity": 70, "rumination": 521 }
+ },
+ "ask_stream": {
+  "hi": [
+   {
+    "type": "memory",
+    "text": "जून में ऐसी ही गिरावट आई थी — चारा बदलने से ठीक हुई"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Manager"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Health"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Nutrition"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Health",
+    "finding": "गाय #12 और #17 में थनैला के लक्षण"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Nutrition",
+    "finding": "चारे में प्रोटीन कम — जून जैसी समस्या"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Inventory"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Breeding"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Breeding",
+    "finding": "गाय #8 हीट में है, दूध पर असर नहीं"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Inventory",
+    "finding": "चारा 3 दिन का बचा, मिनरल मिक्स खत्म"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Finance"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Finance",
+    "finding": "डॉक्टर का खर्च लगभग ₹6,000; सप्लायर बदलने से ₹250/बैग बचत"
+   },
+   {
+    "type": "debate",
+    "from": "Finance",
+    "to": "Health",
+    "text": "सभी गायों के लिए डॉक्टर का खर्च ₹6,000 होगा"
+   },
+   {
+    "type": "debate",
+    "from": "Health",
+    "to": "Finance",
+    "text": "थनैला फैलता है — देरी से दूध का नुकसान ज़्यादा होगा"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Manager",
+    "finding": "योजना तैयार"
+   },
+   {
+    "type": "final",
+    "lang": "hi",
+    "summary": "दूध कम होने के संभावित कारण: (1) गाय #12 और #17 में थनैला (मास्टाइटिस) के लक्षण, (2) चारे की गुणवत्ता में गिरावट — जून जैसी स्थिति, (3) चारा 3 दिन में खत्म होगा। सुझाव: पशु चिकित्सक बुलाएँ, चारा सप्लायर बदलें और मिनरल मिक्स दोबारा मंगाएँ।",
+    "actions": [
+     {
+      "id": "a1",
+      "type": "vet_visit",
+      "priority": "high",
+      "text": "गाय #12, #17 के लिए पशु चिकित्सक बुक करें",
+      "params": {
+       "cows": [
+        12,
+        17
+       ]
+      }
+     },
+     {
+      "id": "a2",
+      "type": "feed_change",
+      "priority": "medium",
+      "text": "चारा सप्लायर बदलें: कृष्णा एग्रो (₹2,150/बैग, अभी ₹2,400)",
+      "params": {
+       "supplier": "Krishna Agro"
+      }
+     },
+     {
+      "id": "a3",
+      "type": "reorder",
+      "priority": "low",
+      "text": "मिनरल मिक्स दोबारा मंगाएँ (50 किलो)",
+      "params": {
+       "item": "mineral_mix",
+       "qty": 50
+      }
+     }
+    ]
+   }
+  ],
+  "en": [
+   {
+    "type": "memory",
+    "text": "In June, a similar drop happened. Changing the feed fixed it."
+   },
+   {
+    "type": "agent_start",
+    "agent": "Manager"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Health"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Nutrition"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Health",
+    "finding": "Mastitis signs in cows #12 and #17"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Nutrition",
+    "finding": "Feed protein is low, the same problem as June"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Inventory"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Breeding"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Breeding",
+    "finding": "Cow #8 is in heat; milk output is not affected"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Inventory",
+    "finding": "Feed lasts only 3 days; mineral mix is out"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Finance"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Finance",
+    "finding": "Vet cost about ₹6,000; a supplier switch saves ₹250 per bag"
+   },
+   {
+    "type": "debate",
+    "from": "Finance",
+    "to": "Health",
+    "text": "A vet for all cows costs ₹6,000"
+   },
+   {
+    "type": "debate",
+    "from": "Health",
+    "to": "Finance",
+    "text": "Mastitis spreads. Delay will cost more milk"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Manager",
+    "finding": "Plan ready"
+   },
+   {
+    "type": "final",
+    "lang": "en",
+    "summary": "Possible reasons for the drop in milk: (1) mastitis signs in cows #12 and #17, (2) lower feed quality, similar to June, (3) feed runs out in 3 days. Suggested actions: call a vet, switch the feed supplier, and reorder mineral mix.",
+    "actions": [
+     {
+      "id": "a1",
+      "type": "vet_visit",
+      "priority": "high",
+      "text": "Book a vet visit for cows #12 and #17",
+      "params": {
+       "cows": [
+        12,
+        17
+       ]
+      }
+     },
+     {
+      "id": "a2",
+      "type": "feed_change",
+      "priority": "medium",
+      "text": "Switch feed supplier to Krishna Agro (₹2,150/bag, now ₹2,400)",
+      "params": {
+       "supplier": "Krishna Agro"
+      }
+     },
+     {
+      "id": "a3",
+      "type": "reorder",
+      "priority": "low",
+      "text": "Reorder 50 kg mineral mix",
+      "params": {
+       "item": "mineral_mix",
+       "qty": 50
+      }
+     }
+    ]
+   }
+  ],
+  "ta": [
+   {
+    "type": "memory",
+    "text": "ஜூனில் இதே போன்ற குறைவு ஏற்பட்டது. தீவனத்தை மாற்றியதும் சரியானது."
+   },
+   {
+    "type": "agent_start",
+    "agent": "Manager"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Health"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Nutrition"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Health",
+    "finding": "பசு #12 மற்றும் #17-இல் மடி அழற்சி (மாஸ்டைடிஸ்) அறிகுறிகள்"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Nutrition",
+    "finding": "தீவனத்தில் புரதம் குறைவு, ஜூன் மாதப் பிரச்சினை போலவே"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Inventory"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Breeding"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Breeding",
+    "finding": "பசு #8 பருவத்தில் உள்ளது; பால் உற்பத்தி பாதிக்கப்படவில்லை"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Inventory",
+    "finding": "தீவனம் 3 நாட்களுக்கு மட்டுமே; மினரல் மிக்ஸ் தீர்ந்துவிட்டது"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Finance"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Finance",
+    "finding": "மருத்துவர் செலவு சுமார் ₹6,000; சப்ளையரை மாற்றினால் பைக்கு ₹250 மிச்சம்"
+   },
+   {
+    "type": "debate",
+    "from": "Finance",
+    "to": "Health",
+    "text": "எல்லா பசுக்களுக்கும் மருத்துவர் செலவு ₹6,000 ஆகும்"
+   },
+   {
+    "type": "debate",
+    "from": "Health",
+    "to": "Finance",
+    "text": "மடி அழற்சி பரவும். தாமதித்தால் பால் இழப்பு அதிகமாகும்"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Manager",
+    "finding": "திட்டம் தயார்"
+   },
+   {
+    "type": "final",
+    "lang": "ta",
+    "summary": "பால் குறைவுக்கான சாத்தியமான காரணங்கள்: (1) பசு #12 மற்றும் #17-இல் மடி அழற்சி அறிகுறிகள், (2) ஜூன் மாதம் போல தீவனத் தரம் குறைவு, (3) தீவனம் 3 நாட்களில் தீரும். பரிந்துரைகள்: கால்நடை மருத்துவரை அழைக்கவும், தீவன சப்ளையரை மாற்றவும், மினரல் மிக்ஸ் மீண்டும் ஆர்டர் செய்யவும்.",
+    "actions": [
+     {
+      "id": "a1",
+      "type": "vet_visit",
+      "priority": "high",
+      "text": "பசு #12, #17-க்கு கால்நடை மருத்துவர் வருகையை பதிவு செய்யவும்",
+      "params": {
+       "cows": [
+        12,
+        17
+       ]
+      }
+     },
+     {
+      "id": "a2",
+      "type": "feed_change",
+      "priority": "medium",
+      "text": "தீவன சப்ளையரை கிருஷ்ணா அக்ரோவுக்கு மாற்றவும் (₹2,150/பை, இப்போது ₹2,400)",
+      "params": {
+       "supplier": "Krishna Agro"
+      }
+     },
+     {
+      "id": "a3",
+      "type": "reorder",
+      "priority": "low",
+      "text": "50 கிலோ மினரல் மிக்ஸ் மீண்டும் ஆர்டர் செய்யவும்",
+      "params": {
+       "item": "mineral_mix",
+       "qty": 50
+      }
+     }
+    ]
+   }
+  ],
+  "kn": [
+   {
+    "type": "memory",
+    "text": "ಜೂನ್‌ನಲ್ಲಿ ಇದೇ ರೀತಿಯ ಇಳಿಕೆ ಆಗಿತ್ತು. ಮೇವು ಬದಲಿಸಿದ ನಂತರ ಸರಿಯಾಯಿತು."
+   },
+   {
+    "type": "agent_start",
+    "agent": "Manager"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Health"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Nutrition"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Health",
+    "finding": "ಹಸು #12 ಮತ್ತು #17ರಲ್ಲಿ ಕೆಚ್ಚಲು ಉರಿಯೂತದ (ಮಾಸ್ಟೈಟಿಸ್) ಲಕ್ಷಣಗಳು"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Nutrition",
+    "finding": "ಮೇವಿನಲ್ಲಿ ಪ್ರೋಟೀನ್ ಕಡಿಮೆ, ಜೂನ್‌ನ ಸಮಸ್ಯೆಯಂತೆಯೇ"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Inventory"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Breeding"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Breeding",
+    "finding": "ಹಸು #8 ಮದಕ್ಕೆ ಬಂದಿದೆ; ಹಾಲಿನ ಉತ್ಪಾದನೆ ಮೇಲೆ ಪರಿಣಾಮವಿಲ್ಲ"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Inventory",
+    "finding": "ಮೇವು 3 ದಿನಕ್ಕಷ್ಟೇ ಇದೆ; ಮಿನರಲ್ ಮಿಕ್ಸ್ ಖಾಲಿಯಾಗಿದೆ"
+   },
+   {
+    "type": "agent_start",
+    "agent": "Finance"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Finance",
+    "finding": "ಪಶುವೈದ್ಯರ ವೆಚ್ಚ ಸುಮಾರು ₹6,000; ಪೂರೈಕೆದಾರ ಬದಲಿಸಿದರೆ ಚೀಲಕ್ಕೆ ₹250 ಉಳಿತಾಯ"
+   },
+   {
+    "type": "debate",
+    "from": "Finance",
+    "to": "Health",
+    "text": "ಎಲ್ಲ ಹಸುಗಳಿಗೆ ಪಶುವೈದ್ಯರ ವೆಚ್ಚ ₹6,000 ಆಗುತ್ತದೆ"
+   },
+   {
+    "type": "debate",
+    "from": "Health",
+    "to": "Finance",
+    "text": "ಉರಿಯೂತ ಹರಡುತ್ತದೆ. ತಡವಾದರೆ ಹೆಚ್ಚು ಹಾಲು ನಷ್ಟವಾಗುತ್ತದೆ"
+   },
+   {
+    "type": "agent_done",
+    "agent": "Manager",
+    "finding": "ಯೋಜನೆ ಸಿದ್ಧ"
+   },
+   {
+    "type": "final",
+    "lang": "kn",
+    "summary": "ಹಾಲು ಕಡಿಮೆಯಾಗಲು ಸಾಧ್ಯ ಕಾರಣಗಳು: (1) ಹಸು #12 ಮತ್ತು #17ರಲ್ಲಿ ಮಾಸ್ಟೈಟಿಸ್ ಲಕ್ಷಣಗಳು, (2) ಜೂನ್‌ನಂತೆಯೇ ಮೇವಿನ ಗುಣಮಟ್ಟ ಕುಸಿತ, (3) ಮೇವು 3 ದಿನಗಳಲ್ಲಿ ಖಾಲಿಯಾಗುತ್ತದೆ. ಸಲಹೆ: ಪಶುವೈದ್ಯರನ್ನು ಕರೆಸಿ, ಮೇವು ಪೂರೈಕೆದಾರರನ್ನು ಬದಲಿಸಿ ಮತ್ತು ಮಿನರಲ್ ಮಿಕ್ಸ್ ಮರು-ಆರ್ಡರ್ ಮಾಡಿ.",
+    "actions": [
+     {
+      "id": "a1",
+      "type": "vet_visit",
+      "priority": "high",
+      "text": "ಹಸು #12, #17ಕ್ಕೆ ಪಶುವೈದ್ಯರ ಭೇಟಿ ಕಾಯ್ದಿರಿಸಿ",
+      "params": {
+       "cows": [
+        12,
+        17
+       ]
+      }
+     },
+     {
+      "id": "a2",
+      "type": "feed_change",
+      "priority": "medium",
+      "text": "ಮೇವು ಪೂರೈಕೆದಾರರನ್ನು ಕೃಷ್ಣ ಅಗ್ರೋಗೆ ಬದಲಿಸಿ (₹2,150/ಚೀಲ, ಈಗ ₹2,400)",
+      "params": {
+       "supplier": "Krishna Agro"
+      }
+     },
+     {
+      "id": "a3",
+      "type": "reorder",
+      "priority": "low",
+      "text": "50 ಕೆಜಿ ಮಿನರಲ್ ಮಿಕ್ಸ್ ಮರು-ಆರ್ಡರ್ ಮಾಡಿ",
+      "params": {
+       "item": "mineral_mix",
+       "qty": 50
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "diagnose": {
+  "conditions": [
+   "Possible Lumpy Skin Disease",
+   "Possible dermatitis"
+  ],
+  "urgency": "high",
+  "advice": "Isolate the animal from the herd, keep it in shade, and call a veterinarian today.",
+  "disclaimer": "This is a possible condition only. Please consult a veterinarian."
+ },
+ "approve": {
+  "en": {
+   "reorder": "Order #23 placed: 50 kg mineral mix",
+   "vet_visit": "Vet visit booked for tomorrow 10 AM",
+   "isolate": "Cow #12 marked for isolation",
+   "feed_change": "Supplier switched to Krishna Agro"
+  },
+  "hi": {
+   "reorder": "ऑर्डर #23 दिया गया: 50 किलो मिनरल मिक्स",
+   "vet_visit": "पशु चिकित्सक की विज़िट कल सुबह 10 बजे के लिए बुक",
+   "isolate": "गाय #12 को अलग रखने के लिए चिह्नित",
+   "feed_change": "चारा सप्लायर कृष्णा एग्रो को बदला गया"
+  },
+  "ta": {
+   "reorder": "ஆர்டர் #23 பதிவு: 50 கிலோ மினரல் மிக்ஸ்",
+   "vet_visit": "கால்நடை மருத்துவர் வருகை நாளை காலை 10 மணிக்கு பதிவு",
+   "isolate": "பசு #12 தனிமைப்படுத்த குறிக்கப்பட்டது",
+   "feed_change": "தீவன சப்ளையர் கிருஷ்ணா அக்ரோவுக்கு மாற்றப்பட்டது"
+  },
+  "kn": {
+   "reorder": "ಆರ್ಡರ್ #23 ದಾಖಲಾಗಿದೆ: 50 ಕೆಜಿ ಮಿನರಲ್ ಮಿಕ್ಸ್",
+   "vet_visit": "ಪಶುವೈದ್ಯರ ಭೇಟಿ ನಾಳೆ ಬೆಳಿಗ್ಗೆ 10 ಗಂಟೆಗೆ ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ",
+   "isolate": "ಹಸು #12 ಪ್ರತ್ಯೇಕಿಸಲು ಗುರುತಿಸಲಾಗಿದೆ",
+   "feed_change": "ಮೇವು ಪೂರೈಕೆದಾರ ಕೃಷ್ಣ ಅಗ್ರೋಗೆ ಬದಲಾಯಿಸಲಾಗಿದೆ"
+  }
+ }
+}

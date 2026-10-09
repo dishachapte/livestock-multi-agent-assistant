@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Farm Assistant</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Telugu&family=Noto+Sans+Kannada&family=Noto+Sans+Bengali&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+</head><body>
+<header><h1>🐄 <span data-i18n="title"></span></h1>
+<select id="lang" aria-label="Language"><option value="en">English</option><option value="hi">हिंदी</option><option value="ta">தமிழ்</option><option value="te">తెలుగు</option><option value="mr">मराठी</option><option value="kn">ಕನ್ನಡ</option><option value="bn">বাংলা</option></select>
+<button id="voiceToggle" class="pill" aria-pressed="true"></button></header>
+
+<section id="briefing" aria-label="Herd alerts">
+<div id="briefChips" class="chips"></div>
+<button id="playBrief" class="ghost" data-i18n="playBriefing"></button><button id="refreshBrief" class="ghost" data-i18n="refresh"></button></section>
+
+<main class="layout">
+<section class="panel" style="grid-area:herd"><h2 data-i18n="herdMap"></h2>
+<div id="legend" class="legend"></div>
+<div id="filters" class="filters" role="group"><button data-f="all" data-i18n="all"></button><button data-f="red" data-i18n="red"></button><button data-f="yellow" data-i18n="yellow"></button><button data-f="green" data-i18n="green"></button></div>
+<div id="herdGrid" class="grid"></div></section>
+
+<section class="panel chatp" style="grid-area:chat"><h2 data-i18n="chat"></h2>
+<div id="chat" aria-live="polite"></div>
+<div id="sugs"><button data-i18n="sug1"></button><button data-i18n="sug2"></button><button data-i18n="sug3"></button></div>
+<div id="preview" hidden><img id="prevImg" alt="Selected photo"><select id="photoCow" aria-label="Cow"></select><button id="rmPhoto" aria-label="Remove photo">✕</button></div>
+<div class="inputrow"><button id="micBtn" aria-label="Voice input">🎤</button><button id="photoBtn" aria-label="Upload photo">📷</button>
+<input id="chatInput" data-i18n-placeholder="placeholder" autocomplete="off"><button id="sendBtn" class="primary" data-i18n="send"></button></div>
+<small class="hint"><span id="listenLbl" hidden data-i18n="listening"></span> <a href="#" id="demoPhoto" data-i18n="demoPhoto"></a></small>
+<input type="file" id="photoInput" accept="image/*" capture="environment" hidden></section>
+
+<aside class="panel" style="grid-area:agents"><h2 data-i18n="agents"></h2>
+<ul id="agents" aria-live="polite"></ul>
+<details id="debateBox" open hidden><summary data-i18n="debate"></summary><div id="debateList"></div></details></aside>
+
+<section class="panel" style="grid-area:actions"><h2 data-i18n="actionPlan"></h2><div id="actionList"></div></section>
+</main>
+
+<div id="modal" class="modal" hidden><div class="dlg" role="dialog" aria-modal="true" aria-labelledby="mTitle"><button id="mClose" class="x" aria-label="Close">✕</button><div id="mBody"></div></div></div>
+<div id="toasts"></div>
+<script type="module" src="js/app.js"></script>
+</body></html>

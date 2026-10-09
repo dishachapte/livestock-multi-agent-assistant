@@ -1,0 +1,12 @@
+# Secrets: never upload your API key
+.env
+
+# Virtual environment and Python cache
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local database and downloaded data
+farm.db
+data/
